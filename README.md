@@ -1,5 +1,5 @@
 # House-Prices-Advanced-Regression-Techniques
-This project focuses on predicting house prices using the Ames Housing dataset and Lasso Regression. It includes a complete pipeline from data preprocessing to model evaluation.
+This project focuses on predicting house prices using the Kaggle Housing dataset and Lasso Regression. It includes a complete pipeline from data preprocessing to model evaluation.
 
 Steps Taken:
 
