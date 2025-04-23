@@ -16,7 +16,7 @@ Converted categorical variables using one-hot encoding. Combined and transformed
 Standardized numerical features for better model performance
 
 5- Model Selection: 
-Used Lasso Regression for its regularization power
+Used Lasso Regression, Randomforrest, and also Hyperparameter tuning for its regularization power
 
 6- Model Evaluation
 Evaluated performance using RMSE on the test data. Analyzed model accuracy and important features
