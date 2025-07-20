@@ -1,5 +1,5 @@
-House Price Prediction – Kaggle Project
-Ever wondered how much a house should cost based on its features?
+# House Price Prediction – Kaggle Project
+# Question: Ever wondered how much a house should cost based on its features?
 In this project, I worked on predicting house prices using the Kaggle House Prices dataset. Here’s a quick overview of what I did:
 
 🔹 Data Loading
