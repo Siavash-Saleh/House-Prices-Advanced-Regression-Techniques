@@ -1,29 +1,37 @@
-# House-Prices-Advanced-Regression-Techniques
-This project focuses on predicting house prices using the Kaggle Housing dataset and Lasso Regression. It includes a complete pipeline from data preprocessing to model evaluation.
+House Price Prediction – Kaggle Project
+Ever wondered how much a house should cost based on its features?
+In this project, I worked on predicting house prices using the Kaggle House Prices dataset. Here’s a quick overview of what I did:
 
-Steps Taken:
+🔹 Data Loading
+Loaded both the training and test datasets to start exploring the data and building the model.
 
-1- Data Loading & Exploration
-Imported the dataset and explored key features and checked for missing values
+🔹 Preprocessing
+Filled missing values: used the mean for numerical columns and mode for categorical ones.
 
-2- Data Cleaning: 
-Handled missing data using imputation strategies. Dropped or filled irrelevant or sparse columns
+Separated numerical and categorical features to make the pipeline cleaner.
 
-3-Feature Engineering: 
-Converted categorical variables using one-hot encoding. Combined and transformed features to improve model learning
+Explored feature correlations and visualized outliers, but kept all data intact — no removals.
 
-4-Feature Scaling: 
-Standardized numerical features for better model performance
+Checked the distribution of numerical features to get a sense of their range and skew.
 
-5- Model Selection: 
-Used Lasso Regression, Randomforrest, and also Hyperparameter tuning for its regularization power
+🔹 Data Integrity
+Kept all original features and outliers without using any information from the test set.
 
-6- Model Evaluation
-Evaluated performance using RMSE on the test data. Analyzed model accuracy and important features
+This helped prevent data leakage and kept the modeling process honest.
 
+🔹 Train/Test Split
+Split the training data for validation so I could test how well the model generalizes before making final predictions.
 
+🔹 Model Selection
+I chose CatBoost for this task because it works really well with categorical data and requires minimal preprocessing.
 
-Notation:
+🔹 Tuning & Validation
+Tuned the model using GridSearchCV.
 
-This project is based on the Housing dataset, commonly used for advanced regression tasks in Kaggle competitions.
+Applied 5-fold cross-validation to catch overfitting and make the model more robust.
+
+🔹 Prediction
+Generated predictions on the test set.
+
+Merged the predictions with the test DataFrame and prepared the submission file.
 
